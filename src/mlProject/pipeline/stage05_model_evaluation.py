@@ -2,7 +2,7 @@ from src.mlProject.config.configuration import ConfigurationManager
 from src.mlProject.components.model_evaluation import ModelEvaluation
 from src.mlProject import logger
 
-STAGE_NAME=" data ingestion"
+STAGE_NAME="model evaluation"
 
 class ModelEvaluationPipeline:
     def __init__(self):

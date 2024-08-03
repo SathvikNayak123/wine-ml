@@ -2,7 +2,7 @@ from src.mlProject.config.configuration import ConfigurationManager
 from src.mlProject.components.model_trainer import ModelTrainer
 from src.mlProject import logger
 
-STAGE_NAME=" data ingestion"
+STAGE_NAME="model training"
 
 class ModelTrainPipeline:
     def __init__(self):
