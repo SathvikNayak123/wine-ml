@@ -1,15 +1,15 @@
 
 # Workflows
 
-- create GitHub repo with .gitignore
-- create env
-- code setup.py
-- install requirements.txt
-- run template.py
+- 1. create GitHub repo with .gitignore
+- 2. create env
+- 3. code setup.py
+- 4. install requirements.txt
+- 5. run template.py
 
-- update config, params and schema.yaml
-- update utils common.py
-- update constants __init__.py
+- 6. update config, params and schema.yaml
+- 7. update utils common.py
+- 8. update constants __init__.py
 
 repeat for every stage:
 - update config.yaml
@@ -19,12 +19,12 @@ repeat for every stage:
 - update pipeline
 - update main.py
 
-- run main.py
-- create class PredictPipeline in pipepline
-- create flask app
+- 10. run main.py
+- 11. create class PredictPipeline in pipepline
+- 12. create flask app
 
-- docker
-- create .github/workflows/cicd.yaml
+- 13. docker
+- 14. create .github/workflows/cicd.yaml
 
 ## Setup github secrets:
 
